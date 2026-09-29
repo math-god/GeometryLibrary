@@ -27,7 +27,7 @@ public abstract class Geometry {
 
         @Override
         public double area() {
-            return a * b;
+            return b * a;
         }
     }
 
